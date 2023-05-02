@@ -1,9 +1,15 @@
-$(window).on("load", function() {
-    $("body").on("click", function(event){
-        console.log(event.pageX);
-        console.log(event.pageY);
-    })
-    $("body").mousemove(function(event) {
-        $("#test").css("backgroundColor", `rgb(${event.pageX / 10}, ${event.pageY / 10}, 255`);
+// $(function () {
+//     $("#meBunny").slideDown().fadeIn();
+// })
+$(window).on("load", function(){
+    //$(".homeProjects").css("paddingLeft", ($(".homeProjects").css("paddingLeft") += 100) + vw);
+    $(".homePageLight").slideDown("slow", function(){
+        $(this).find("*").fadeIn("slow"/*, function(){
+            $(".homeProjects").animate({
+                padding: {
+                    left: `-=100vw`
+                } 
+            })
+        }*/);
     });
 })

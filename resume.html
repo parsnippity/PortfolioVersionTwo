@@ -17,25 +17,116 @@
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="d-flex justify-content-between bg-primary-subtle p-1 align-items-center">
-        <div class="d-flex align-items-center">
+    <nav class="navbar navbar-expand-sm bg-dark-subtle">
+        <a class="navbar-brand" href="./index.html">
             <img src="./images/myfavicon.png">
-            <h1 class="d-inline">Brianne Siemsen</h1>
-        </div>
-        <button class="btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive"
-        aria-controls="offcanvasResponsive">Nav</button>
-        <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+            <h1 class="d-inline fs-3">Brianne Siemsen</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvassm"
+            aria-controls="navbarOffcanvassm" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvassm" aria-labelledby="navbarOffcanvassmLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <a href="./index.html" class="d-block d-lg-inline">About</a>
-                <a href="./resume.html" class="d-block d-lg-inline">Resume</a>
-                <a href="./projects.html" class="d-block d-lg-inline">Projects</a>
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link fs-3" aria-current="page" href="./index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-3 active" href="./resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-3" href="./projects.html">Projects</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
+    <div class="container-fluid px-0 bg-white pt-3">
+        <div class="row">
+            <div class="col-sm border-bottom border-purple border-end bg-white">
+                <img class="w-25" src="./images/bunny.jpg">
+                <h1 class="ps-1 fs-2">Contact Info:</h1>
+                <ul class="p-1">
+                    <li>Name: Brianne Siemsen</li>
+                    <li>Email: me@this.com</li>
+                    <li>Github: <a href="https://github.com/parsnippity" class="link-purple">parsnippity</a></li>
+                </ul>
+                <p>EDUCATION:
+                Arizona Virtual Academy, Glendale, AZ
+                AUGUST 2012 - PRESENT
+                Relevant Coursework: Web Design, Game Design, Computer Literacy
+                West-MEC, Phoenix, AZ — Coding Program
+                AUGUST 2022 - PRESENT
+                This two-year interactive program prepares students for a career as a software developer. The program teaches students how to design and develop software, build apps for phones, tablets, websites, and write and test computer code.
+                Estrella Mountain Community College, Avondale, AZ
+                JANUARY 2023 - PRESENT
+                Concurrently enrolled and taking an American History course.
+                </p>
+            </div>
+            <div class="col-sm border-bottom border-purple bg-secondary">
+                <div class="border-bottom border-purple bg-white">
+                    <p>Skills</p>
+                    <p>Able to implement the steps in the System Development Life Cycle
+                    Experience with creating and implementing basic algorithms
+                    Knowledge of problem-solving and troubleshooting strategies applicable to software development
+                    Skilled in identifying errors in program modules
+                    Experience with version control systems
+                    Knowledge of HTML5, CSS3, JavaScript, jQuery, and Bootstrap
+                    </p>
+                </div>
+                <div class="text-white">
+                    <p>EXTRACURRICULAR ACTIVITIES:
+                    Future Business Leaders of America, Glendale, AZ
+                    AUGUST 2022 - PRESENT
+                    Member since 2022, 1st place winner in Personal Finance and Networking Infrastructure events at Regional Conference and
+                    1st place winner in Insurance and Risk Management at Regional Conference.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm border-bottom border-purple border-end bg-secondary text-white">
+                <p>Known coding languages and libraries</p>
+                <img class="w-25" src="./images/bunny.jpg">
+                <img class="w-25" src="./images/bunny.jpg">
+                <img class="w-25" src="./images/bunny.jpg">
+                <img class="w-25" src="./images/bunny.jpg">
+                <img class="w-25" src="./images/bunny.jpg">
+            </div>
+            <div class="col-sm border-bottom border-purple bg-white">
+                <p>EXPERIENCE:
+                City of Glendale Public Library, Glendale, AZ — Teen Volunteer
+                JULY 2022 - PRESENT
+                Manned Summer Reading Program and shelved books.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mx-0 px-1">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./images/myfavicon.png">
+            <h1 class="text-white">Brianne Siemsen</h1>
+        </a>
+        <ul>
+            <li>
+                <a class="text-white" href="./index.html">About</a>
+            </li>
+            <li>
+                <a class="text-white" href="./resume.html">Resume</a>
+            </li>
+            <li>
+                <a class="text-white" href="./projects.html">Projects</a>
+            </li>
+        </ul>
+        <ul class="text-white">
+            <li>Name: Brianne Siemsen</li>
+            <li>Email: me@this.com</li>
+            <li>Github: <a href="https://github.com/parsnippity" class="link-purple">parsnippity</a></li>
+        </ul>
+    </div>
     <script src="./index.js"></script>
 </body>
 </html>

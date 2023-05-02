@@ -3,6 +3,41 @@
     --bs-navbar-padding-x: 0.5rem;
     --bs-navbar-toggler-border-color: rgba(0,0,0,0);
 }
+.navbar-nav {
+    --bs-nav-link-color: black;
+}
+.bg-body-tertiary {
+    background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
 body {
     background-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-underline .nav-link.active,
+.nav-underline .show>.nav-link {
+    border-bottom-color: purple;
+}
+.border-purple {
+    border-color: purple!important;
+    border-width: 3px!important;
+}
+.link-purple {
+    color: purple;
+    text-decoration-color: purple;
+}
+.btn:hover {
+    background-color: purple!important;
+    color: white!important;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+.homePageLight {
+    display: none;
+    *{
+        display: none;
+    }
+}
+* {
+    --bs-nav-link-hover-color: purple;
 }
