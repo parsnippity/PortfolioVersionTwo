@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Brianne Siemsen">
     <meta name="description" content="Empty page with all the meta tags complete">
-    <title>Document</title>
+    <title>Resume - Brianne Siemsen's Portfolio</title>
     <meta property="og:image" content="https://d32qe1r3a676y7.cloudfront.net/eyJidWNrZXQiOiJibG9nLWVjb3RyZWUiLCJrZXkiOiAiYmxvZy8wMDAxLzAxL2FkNDZkYmI0NDdjZDBlOWE2YWVlY2Q2NGNjMmJkMzMyYjBjYmNiNzkuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6IDkwMCwiaGVpZ2h0IjowLCJmaXQiOiJjb3ZlciJ9fX0=">
     <meta property="og:description" content="Empty page with all the meta tags complete">
-    <meta property="og:title" content="Document">
+    <meta property="og:title" content="Resume - Brianne Siemsen's Portfolio">
     <link rel="icon" href="images/myfavicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/css/styles.css">
@@ -19,8 +19,8 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-dark-subtle">
         <a class="navbar-brand" href="./index.html">
-            <img src="./images/myfavicon.png">
-            <h1 class="d-inline fs-3">Brianne Siemsen</h1>
+            <img class="align-middle" src="./images/myfavicon.png">
+            <h1 class="d-inline fs-3 align-middle">Brianne Siemsen</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvassm"
             aria-controls="navbarOffcanvassm" aria-label="Toggle navigation">
@@ -28,16 +28,16 @@
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvassm" aria-labelledby="navbarOffcanvassmLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <h5 class="offcanvas-title fs-3" id="offcanvasNavbarLabel">Navbar</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-underline">
                     <li class="nav-item">
-                        <a class="nav-link fs-3" href="./index.html">About</a>
+                        <a class="nav-link fs-3" aria-current="page" href="./index.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-3 active" aria-current="page" href="./resume.html">Resume</a>
+                        <a class="nav-link active fs-3" href="./resume.html">Resume</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fs-3" href="./projects.html">Projects</a>
@@ -49,28 +49,32 @@
     <div class="container-fluid px-0 bg-white pt-3">
         <div class="row">
             <div class="col-md border-bottom border-purple border-end bg-white">
-                <img class="w-25" src="./images/bunny.jpg">
-                <h1 class="ps-1 fs-2">Contact Info:</h1>
-                <ul class="p-1">
-                    <li>Name: Brianne Siemsen</li>
-                    <li>Email: me@this.com</li>
-                    <li>Github: <a href="https://github.com/parsnippity" target="_blank" class="link-purple">parsnippity</a></li>
-                </ul>
-                <p class="ps-1 fs-2">EDUCATION:</p>
-                <p class="p-1">Arizona Virtual Academy, Glendale, AZ</p>
-                <p class="p-1">AUGUST 2012 - PRESENT</p>
-                <p class="p-1">Relevant Coursework: Web Design, Game Design, Computer Literacy
-                West-MEC, Phoenix, AZ — Coding Program</p>
-                <p class="p-1">AUGUST 2022 - PRESENT</p>
+                <div class="d-flex align-items-center">
+                    <img class="w-20 rounded-circle p-1" src="./images/squarebunny.jpg">
+                    <div class="p-2">
+                        <h1 class="pb-2 fs-5">Contact Info:</h1>
+                        <ul>
+                            <li>Name: Brianne Siemsen</li>
+                            <li>Email: me@this.com</li>
+                            <li>Github: <a href="https://github.com/parsnippity" target="_blank" class="link-purple">parsnippity</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="p-1 fs-2 pt-3">Education:</p>
+                <p class="p-1 fs-5">Arizona Virtual Academy, Glendale, AZ</p>
+                <p class="p-1">August 2012 - Present</p>
+                <p class="p-1">Relevant Coursework: Web Design, Game Design, Computer Literacy</p>
+                <p class="p-1 fs-5">West-MEC, Phoenix, AZ — Coding Program</p>
+                <p class="p-1">August 2022 - Present</p>
                 <p class="p-1">This two-year interactive program prepares students for a career as a software developer. The program teaches students how to design and develop software, build apps for phones, tablets, websites, and write and test computer code.</p>
-                <p class="p-1">Estrella Mountain Community College, Avondale, AZ</p>
-                <p class="p-1">JANUARY 2023 - PRESENT</p>
+                <p class="p-1 fs-5">Estrella Mountain Community College, Avondale, AZ</p>
+                <p class="p-1">January 2023 - Present</p>
                 <p class="p-1">Concurrently enrolled and taking an American History course.
                 </p>
             </div>
             <div class="col-md border-bottom border-purple bg-secondary">
                 <div class="border-bottom border-purple bg-white">
-                    <p class="ps-1 fs-2">Skills</p>
+                    <p class="p-1 fs-2">Skills:</p>
                     <p class="p-1">Able to implement the steps in the System Development Life Cycle</p>
                     <p class="p-1">Experience with creating and implementing basic algorithms</p>
                     <p class="p-1">Knowledge of problem-solving and troubleshooting strategies applicable to software development</p>
@@ -80,51 +84,58 @@
                     </p>
                 </div>
                 <div class="text-white">
-                    <p class="ps-1 fs-2">EXTRACURRICULAR ACTIVITIES:</p>
-                    <p class="p-1">Future Business Leaders of America, Glendale, AZ</p>
-                    <p class="p-1">AUGUST 2022 - PRESENT</p>
-                    <p class="p-1">Member since 2022, 1st place winner in Personal Finance and Networking Infrastructure events at Regional Conference and 1st place winner in Insurance and Risk Management at Regional Conference.</p>
+                    <p class="p-1 fs-2">Extracurricular Activities:</p>
+                    <p class="p-1 fs-5">Future Business Leaders of America, Glendale, AZ</p>
+                    <p class="p-1">August 2022 - Present</p>
+                    <p class="p-1">Member since 2022, 1st place winner in Personal Finance and Networking Infrastructure events at Regional Conference and 1st place winner in Insurance and Risk Management at State Conference.</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md border-bottom border-purple border-end bg-secondary text-white">
-                <p class="ps-1 fs-2">Known coding languages and libraries</p>
-                <img class="w-25" src="./images/bunny.jpg">
-                <img class="w-25" src="./images/bunny.jpg">
-                <img class="w-25" src="./images/bunny.jpg">
-                <img class="w-25" src="./images/bunny.jpg">
-                <img class="w-25" src="./images/bunny.jpg">
+                <p class="p-1 fs-2">Known Coding Languages and Libraries:</p>
+                <img class="w-18" src="./images/squarebunny.jpg">
+                <img class="w-18" src="./images/squarebunny.jpg">
+                <img class="w-18" src="./images/squarebunny.jpg">
+                <img class="w-18" src="./images/squarebunny.jpg">
+                <img class="w-18" src="./images/squarebunny.jpg">
             </div>
             <div class="col-md border-bottom border-purple bg-white">
-                <p class="ps-1 fs-2">EXPERIENCE:</p>
-                <p class="p-1">City of Glendale Public Library, Glendale, AZ — Teen Volunteer</p>
-                <p class="p-1">JULY 2022 - PRESENT</p>
+                <p class="p-1 fs-2">Experience:</p>
+                <p class="p-1 fs-5">City of Glendale Public Library, Glendale, AZ — Teen Volunteer</p>
+                <p class="p-1">July 2022 - Present</p>
                 <p class="p-1">Manned Summer Reading Program and shelved books.</p>
             </div>
         </div>
     </div>
-    <div class="container-fluid mx-0 px-1">
-        <a class="navbar-brand" href="./index.html">
-            <img src="./images/myfavicon.png">
-            <h1 class="text-white">Brianne Siemsen</h1>
-        </a>
-        <ul>
-            <li>
-                <a class="text-white" href="./index.html">About</a>
-            </li>
-            <li>
-                <a class="text-white" href="./resume.html">Resume</a>
-            </li>
-            <li>
-                <a class="text-white" href="./projects.html">Projects</a>
-            </li>
-        </ul>
-        <ul class="text-white">
-            <li>Name: Brianne Siemsen</li>
-            <li>Email: me@this.com</li>
-            <li>Github: <a href="https://github.com/parsnippity" target="_blank" class="link-purple">parsnippity</a></li>
-        </ul>
+    <div class="container-fluid mx-0 p-2 pb-4 pt-sm-4 bg-black">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-9 pb-4 p-sm-0 text-center text-sm-start">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="align-middle" src="./images/myfavicon.png">
+                    <h1 class="text-white d-inline fs-3 align-middle">Brianne Siemsen</h1>
+                </a>
+            </div>
+            <div class="col d-flex justify-content-around">
+                <ul class="text-white">
+                    <li>Name: Brianne Siemsen</li>
+                    <li>Email: me@this.com</li>
+                    <li>Github: <a href="https://github.com/parsnippity" target="_blank"
+                            class="link-light-purple">parsnippity</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="text-white" href="./index.html">About</a>
+                    </li>
+                    <li>
+                        <a class="text-white" href="./resume.html">Resume</a>
+                    </li>
+                    <li>
+                        <a class="text-white" href="./projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <script src="./index.js"></script>
 </body>

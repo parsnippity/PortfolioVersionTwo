@@ -129,6 +129,11 @@ body {
   text-decoration-color: purple;
 }
 
+.link-light-purple {
+  color: orchid;
+  text-decoration-color: orchid;
+}
+
 .btn:hover {
   background-color: purple !important;
   color: white !important;
@@ -147,4 +152,32 @@ body {
 
 * {
   --bs-nav-link-hover-color: purple;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-18 {
+  width: 18%;
+}
+
+.w-45 {
+  width: 16rem;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+
+.carousel-item {
+  padding-right: 10%;
+  padding-left: 10%;
 }/*# sourceMappingURL=styles.css.map */
