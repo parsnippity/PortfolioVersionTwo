@@ -181,6 +181,10 @@ body {
   padding-left: 10%;
 }
 
+.firstCarousels {
+  display: none;
+}
+
 @media only screen and (max-width: 575.98px) {
   .border-end {
     border-right: 0px !important;
